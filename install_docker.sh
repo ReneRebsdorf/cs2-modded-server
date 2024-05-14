@@ -128,15 +128,15 @@ sudo -u $user /steamcmd/steamcmd.sh \
 cd /home/${user}
 echo "/home/user !!!!!!!"
 
-# mkdir -p /root/.steam/sdk32/
-# ln -sf /steamcmd/linux32/steamclient.so /root/.steam/sdk32/
-# mkdir -p /root/.steam/sdk64/
-# ln -sf /steamcmd/linux64/steamclient.so /root/.steam/sdk64/
+mkdir -p /root/.steam/sdk32/
+ln -sf /steamcmd/linux32/steamclient.so /root/.steam/sdk32/
+mkdir -p /root/.steam/sdk64/
+ln -sf /steamcmd/linux64/steamclient.so /root/.steam/sdk64/
 
-# mkdir -p /home/${user}/.steam/sdk32/
-# ln -sf /steamcmd/linux32/steamclient.so /home/${user}/.steam/sdk32/
-# mkdir -p /home/${user}/.steam/sdk64/
-# ln -sf /steamcmd/linux64/steamclient.so /home/${user}/.steam/sdk64/
+mkdir -p /home/${user}/.steam/sdk32/
+ln -sf /steamcmd/linux32/steamclient.so /home/${user}/.steam/sdk32/
+mkdir -p /home/${user}/.steam/sdk64/
+ln -sf /steamcmd/linux64/steamclient.so /home/${user}/.steam/sdk64/
 
 echo "Installing mods"
 cp -R /home/game/csgo/ /home/${user}/cs2/game/

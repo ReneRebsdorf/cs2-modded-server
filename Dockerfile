@@ -29,23 +29,23 @@ ENV STEAM_ACCOUNT=""
 RUN echo "steam ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/steam \
     && chmod 0440 /etc/sudoers.d/steam
 
-RUN mkdir -p /home/cs2-modded-server
+# RUN mkdir -p /home/cs2-modded-server
 
 RUN mkdir -p /home/steam/cs2
 
-WORKDIR /home/cs2-modded-server/
+# WORKDIR /home/cs2-modded-server/
 
 RUN chown -R steam:steam /home/steam/cs2
 
-RUN git clone https://github.com/DanielDKnudsen/cs2-modded-server
+# RUN git clone https://github.com/DanielDKnudsen/cs2-modded-server
 
-RUN echo cloned repository
+# RUN echo cloned repository
 
-RUN mv /home/cs2-modded-server/cs2-modded-server/* /home/cs2-modded-server
+# RUN mv /home/cs2-modded-server/cs2-modded-server/* /home/cs2-modded-server
 
-RUN rm -rf /home/cs2-modded-server/cs2-modded-server
+# RUN rm -rf /home/cs2-modded-server/cs2-modded-server
 
-WORKDIR /home/cs2-modded-server/
+# WORKDIR /home/cs2-modded-server/
 
 USER steam
 

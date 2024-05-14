@@ -12,6 +12,10 @@ services:
       - type: bind
         source: ./game
         target: /home/game/
+      - type: bind
+        source: ./
+        target: /home/cs2-modded-server/
+
     ports:
       - "27015:27015/tcp"
       - "27015:27015/udp"
