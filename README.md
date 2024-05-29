@@ -76,31 +76,32 @@ Getting up and running:
 
 Mod | Version | Why
 --- | --- | ---
-[Metamod:Source](http://www.sourcemm.net/downloads.php?branch=master) | `2.0.0-1291` | Sits between the Game and the Engine, and allows plugins to intercept calls that flow between
-[CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) | `233` | Attempts to implement a .NET Core scripting layer on top of a Metamod Source Plugin, allowing developers to create plugins that interact with the game server in a modern language (C#)
+[Metamod:Source](http://www.sourcemm.net/downloads.php?branch=master) | `2.0.0-1293` | Sits between the Game and the Engine, and allows plugins to intercept calls that flow between
+[CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) | `235` | Attempts to implement a .NET Core scripting layer on top of a Metamod Source Plugin, allowing developers to create plugins that interact with the game server in a modern language (C#)
 [CS2_ExecAfter](https://github.com/kus/CS2_ExecAfter) | `1.0.0` | Executes a command after server event (i.e. OnMapStart) or a delay.
 [CS2 Remove Map Weapons](https://github.com/kus/CS2-Remove-Map-Weapons) | `1.0.1` | Remove weapons from the map in CS2 as `mp_weapons_allow_map_placed 0` does not work.
 [CS2_DamageInfo](https://github.com/K4ryuu/CS2_DamageInfo) | `2.3.2` | Displays the amount of damage players have inflicted on the victim's HP and Armor, as well as the hit groups they have hit.
 [GameModeManager](https://github.com/nickj609/GameModeManager)| `1.0.3-custombuild` | A simple Counter-Strike 2 server plugin that helps admins manage game modes and map groups.
 [Rock The Vote](https://github.com/abnerfs/cs2-rockthevote)| `1.8.5` | General purpose cs2 map voting plugin, made with love from scratch
-[MatchZy](https://github.com/shobhit-pathak/MatchZy) | `0.7.9` | MatchZy is a plugin for CS2 for running and managing practice/pugs/scrims/matches with easy configuration!
+[MatchZy](https://github.com/shobhit-pathak/MatchZy) | `0.7.11` | MatchZy is a plugin for CS2 for running and managing practice/pugs/scrims/matches with easy configuration!
 [MapConfigurator](https://github.com/ManifestManah/MapConfigurator)| `1.0.2` | Allows you to quick and easily create unique configuration files for each map on your server.
 [SimpleAdmin](https://github.com/connercsbn/SimpleAdmin/)| `0.1.2` | Adds basic administrator functions
 [CS2Rcon](https://github.com/LordFetznschaedl/CS2Rcon)| `1.2.0` | This is a rudimentary implementation of a RCON plugin for CS2 using CounterStrikeSharp as RCON does not work whilst connected to the server
 [SharpTimer](https://github.com/DEAFPS/SharpTimer/)| `0.2.5` | SharpTimer is a simple Surf/KZ/Bhop/MG/Deathrun/etc CS2 Timer plugin
-[GunGame](https://github.com/ssypchenko/cs2-gungame)| `1.1.0` | GunGame mode on Counter Strike Sharp
-[K4-Arenas](https://github.com/K4ryuu/K4-Arenas)| `1.4.2` | All in one arena plugin, that you can use to have a ladder type gameplay. Support all map, 2v2/3v3/etc
-[CS2 Retakes](https://github.com/B3none/cs2-retakes)| `2.0.4` | CS2 implementation of retakes. Based on the version for CS:GO by Splewis.
+[GunGame](https://github.com/ssypchenko/cs2-gungame)| `1.1.1` | GunGame mode on Counter Strike Sharp
+[K4-Arenas](https://github.com/K4ryuu/K4-Arenas)| `1.4.3` | All in one arena plugin, that you can use to have a ladder type gameplay. Support all map, 2v2/3v3/etc
+[CS2 Retakes](https://github.com/B3none/cs2-retakes)| `2.0.5` | CS2 implementation of retakes. Based on the version for CS:GO by Splewis.
 [CS2 Retakes Shared](https://github.com/B3none/cs2-retakes)| `2.0.0` | Shared library for CS2 Retakes.
 [CS2 Instadefuse](https://github.com/B3none/cs2-instadefuse)| `1.4.3` | Allows a CT to instantly defuse the bomb when nothing can prevent defusal. Written in C# for CounterStrikeSharp.
 [CS2 Retakes Allocator](https://github.com/yonilerner/cs2-retakes-allocator)| `2.3.10` | Advanced weapon allocation for B3none/cs2-retakes
 [CS2 Whitelist](https://github.com/PhantomYopta/CS2_WhiteList)| `1.0.0`| Restricts access to the server for SteamID members/employees listed in the whitelist. [How?](#enable-whitelist-so-only-a-list-of-people-can-play)
-[CS2 Executes](https://github.com/zwolof/cs2-executes)| `1.0.2` | CS2 implementation of executes. Based on the version for CS:GO by Splewis.
+[CS2 Executes](https://github.com/zwolof/cs2-executes)| `1.0.4` | CS2 implementation of executes. Based on the version for CS:GO by Splewis.
 [CS2 Advertisement](https://github.com/partiusfabaa/cs2-advertisement)| `1.0.6.8` | Allows you to show ads in chat/center/panel. [How?](#enable-advertisements)
 [CS2 Deathmatch](https://github.com/NockyCZ/CS2-Deathmatch)| `1.1.3` | Custom Deathmatch CS2 plugin (Includes custom spawnpoints, multicfg, gun selection, spawn protection, etc)
-[OpenPrefirePrac](https://github.com/lengran/OpenPrefirePrac)| `0.1.32` | Multiple prefire practices on competitive maps and support multiplayer practicing simultaneously.
+[OpenPrefirePrac](https://github.com/lengran/OpenPrefirePrac)| `0.1.35` | Multiple prefire practices on competitive maps and support multiplayer practicing simultaneously.
 [CS2-CustomVotes](https://github.com/imi-tat0r/CS2-CustomVotes)| `1.0.1` | A plugin for Counter-Strike 2 to create custom votes for settings.
 [deathrun-manager](https://github.com/leoskiline/cs2-deathrun-manager)| `0.0.8` | Deathrun Manager for CounterStrikeSharp Framework CS2.
+[AnnouncementBroadcaster](https://github.com/lengran/CS2AnnouncementBroadcaster) | `0.3.1` | Conditional messages, OnCommand, OnPlayerConnect, OnRoundStart, and TimerMsgs.
 
 ## Share the love
 
@@ -141,19 +142,27 @@ To generate this directory, you can run the `gcp.sh` script (if on Google Cloud)
 
 ## Creating an online server
 
-If you are hosting an online server, you need to create a Steam [Game Login Token](https://steamcommunity.com/dev/managegameservers), your server will not run online without this. Put this value in the `STEAM_ACCOUNT` environment variable or create a custom file for `/game/csgo/cfg/secrets.cfg` following the [custom files](#custom-files) steps (`/custom_files/cfg/secrets.cfg`) and set it in `sv_setsteamaccount`.
+If you are hosting an online server, you need to create a Steam [Game Login Token](https://steamcommunity.com/dev/managegameservers), your server will not run online without this. Put this value in the `STEAM_ACCOUNT` environment variable.
 
 You also need to create an [authorization key](http://steamcommunity.com/dev/apikey) which will allow your server to download maps from the workshop. Put this value in the `API_KEY` environment variable.
+
+See all available [environment variables](#environment-variables).
 
 **You must connect to the server from the public IP, not the LAN IP even if you are on the same network. The script logs the public IP `Starting server on XXX.XXX.XXX.XXX:27015`**
 
 ## Creating a LAN server
 
-Create a custom file for `/game/csgo/cfg/env.cfg` following the [custom files](#custom-files) steps (`/custom_files/cfg/env.cfg`) and set `sv_lan` to `1`, `sv_downloadurl` to `""` and `sv_allowdownload` to `1`.
+Set the environment variable `LAN` to `1`.
+
+You also need to create an [authorization key](http://steamcommunity.com/dev/apikey) which will allow your server to download maps from the workshop. Put this value in the `API_KEY` environment variable.
+
+See all available [environment variables](#environment-variables).
 
 ## Environment variables
 
 ### Available via environment variable only
+
+*On Windows set these in `win.ini`.*
 
 Key | Default value | What is it
 --- | --- | ---
@@ -162,22 +171,16 @@ Key | Default value | What is it
 `PORT` | `27015` | Server port
 `TICKRATE` | `128` | Server tickrate MM is 64, Faceit is 128
 `MAXPLAYERS` | `32` | Max player limit
-`DUCK_DOMAIN` | `` | [Duck DNS](https://www.duckdns.org/) domain if you want to utalise the free service to get a domain for your server instead of IP
-`DUCK_TOKEN` | `` | [Duck DNS](https://www.duckdns.org/) access token to update domain when server boots
 `CUSTOM_FOLDER` | `custom_files` | Folder of your own modifications to the mod that mirror the csgo/ structure and overwrite the mode files. More on that [here](#custom-files)
-
-### Can be configured via config file in custom files directory
-
-These values can be set via environment variable or a config file in the custom files directory.
-Copy `/game/csgo/cfg/secrets.cfg` to `/custom_files/cfg/secrets.cfg` and write the values you want and this file will overwrite `/game/csgo/cfg/secrets.cfg` each time the `gcp.sh`/`install.sh` script is ran.
-
-Key | Value | What is it
---- | --- | ---
 `RCON_PASSWORD` | `changeme` | RCON password to control server from console also remotely configure
 `STEAM_ACCOUNT` | `` | To host a server online, you need to create a Steam [Game Login Token](https://steamcommunity.com/dev/managegameservers). Your server will not run online without this
 `SERVER_PASSWORD` | `` | If you want a password protected server
+`LAN` | `0` | If the server is a LAN only server
+`EXEC` | `on_boot.cfg` | Config file to run when server boots. If switching gamemode, it's recommended to do a delay see the example `on_boot.cfg` file
+`DUCK_DOMAIN` | `` | (Linux only) [Duck DNS](https://www.duckdns.org/) domain if you want to utalise the free service to get a domain for your server instead of IP
+`DUCK_TOKEN` | `` | (Linux only) [Duck DNS](https://www.duckdns.org/) access token to update domain when server boots
 
-### Playing workshop maps/collections
+## Playing workshop maps/collections
 
 To download maps from the workshop, your server needs access to the steam web api. To allow this you'll need an authorization key which you can generate [here](http://steamcommunity.com/dev/apikey) and set `API_KEY` to the key.
 
@@ -185,9 +188,11 @@ The console command for hosting a workshop map is `host_workshop_map fileid` whe
 
 The console command for hosting a workshop collection is `host_workshop_collection collectionid` where `collectionid` is the number that comes after `?id=` in the workshop URL for example: [https://steamcommunity.com/sharedfiles/filedetails/?id=1092904694](https://steamcommunity.com/sharedfiles/filedetails/?id=1092904694). This command will then download all maps in the collection and create a mapgroup out of them, then host it.
 
-### Setting maps for different game modes
+## Setting maps for different game modes
 
 Copy the file `/game/csgo/gamemodes_server.txt` following the [custom files](#custom-files) steps (`/custom_files/gamemodes_server.txt`) and add the maps you want per gamemode. Most gamemodes fall under casual, but I have created unique groups for each mode so adding your own maps is easy by updating this one file.
+
+It isn't required, but you should add the fileid into `/game/csgo/subscribed_file_ids.txt` following the [custom files](#custom-files) steps (`/custom_files/subscribed_file_ids.txt`) so the server keeps it up to date.
 
 ## Running on Google Cloud
 
@@ -340,7 +345,7 @@ When you join the server you can [change game modes](#changing-game-modes).
 
 Make sure Docker is installed and about 40 GB disk space is free.
 
-You can either Download this repo and extract it to where you want your server (i.e. C:\Server\cs2-modded-server) or use git and clone the repo git clone git@github.com:kus/cs2-modded-server.git and run your server from inside of it. This way you can simply git pull updates.
+You can either Download this repo and extract it to where you want your server (i.e. C:\Server\cs2-modded-server) or use git and clone the repo `git clone https://github.com/kus/cs2-modded-server.git` and run your server from inside of it. This way you can simply git pull updates.
 
 - **If setting up for internet server:**
 
@@ -348,20 +353,18 @@ You can either Download this repo and extract it to where you want your server (
    For workshop maps set 'API_KEY' in '.env'-file.
 
 - **Build docker image:**
-   
+
    `docker build -t cs2-modded-server .`
 
 - **Run the server**
 
    `docker compose up`
 
-
-
 ## Running on Windows
 
 Make sure you have **60GB free space**.
 
-You can either [Download this repo](https://github.com/kus/cs2-modded-server/archive/master.zip) and extract it to where you want your server (i.e. `C:\Server\cs2-modded-server`) or use git and clone the repo `git clone git@github.com:kus/cs2-modded-server.git` and run your server from inside of it. This way you can simply `git pull` updates.
+You can either [Download this repo](https://github.com/kus/cs2-modded-server/archive/master.zip) and extract it to where you want your server (i.e. `C:\Server\cs2-modded-server`) or use git and clone the repo `git clone https://github.com/kus/cs2-modded-server.git` and run your server from inside of it. This way you can simply `git pull` updates.
 
 All the following instructions will use the repo folder location as the root.
 
@@ -371,11 +374,13 @@ To download maps from the workshop, your server [needs access](https://developer
 
 - **If setting up internet server:**
 
-   Copy `\game\csgo\cfg\secrets.cfg` to your [custom files](#custom-files) directory `\custom_files\cfg\secrets.cfg` and set `sv_setsteamaccount` to your [Game Server Login Token](https://steamcommunity.com/dev/managegameservers)
-
    Open `\win.ini`
 
-   Set `ip_internet` to your [public ip](http://checkip.amazonaws.com/)
+   Set `IP` to your [public ip](http://checkip.amazonaws.com/)
+
+   Set `STEAM_ACCOUNT` to your [Game Server Login Token](https://steamcommunity.com/dev/managegameservers)
+
+   Set `API_KEY` to your [Steam Web API key](http://steamcommunity.com/dev/apikey) (required to play workshop maps)
 
    Make sure you [port forward](https://portforward.com/router.htm) on your router TCP: `27015` and UDP: `27015` & `27020` so players can connect from the internet.
 
@@ -383,7 +388,11 @@ To download maps from the workshop, your server [needs access](https://developer
 
 - **If setting up LAN server:**
 
-   Copy `\game\csgo\cfg\env.cfg` to your [custom files](#custom-files) directory `\custom_files\cfg\env.cfg` and set `sv_lan` to `1`
+   Open `\win.ini`
+
+   Set `LAN` to `1`
+
+   Set `API_KEY` to your [Steam Web API key](http://steamcommunity.com/dev/apikey) (required to play workshop maps)
 
 [Add admins](#acessing-admin-menu)
 
@@ -418,7 +427,7 @@ Players can start a vote to change the game mode by typing `!gamemode` in chat.
 
 <img alt="Vote to change game mode" src="https://github.com/kus/cs2-modded-server/blob/assets/assets/vote-gamemode.png?raw=true&sanitize=true">
 
-You can also start a specific game mode vote by typing `!comp`, `!wingman`, `!dm`, `!gg`, `!1v1`, `!awp`, `!aim`, `!prefire`, `!executes`, `!retake`, `!prac`, `!bhop`, `!kz`, `!surf`, `!minigames`, `!deathrun`, `!course`, `!scoutzknivez`, `!hns`, `!soccer`.
+You can also start a specific game mode vote by typing `!comp`, `!wingman`, `!dm`, `!gg`, `!1v1`, `!awp`, `!aim`, `!prefire`, `!executes`, `!retake`, `!prac`, `!bhop`, `!kz`, `!surf`, `!minigames`, `!deathrun`, `!course`, `!scoutzknivez`, `!hns`, `!soccer`, `!1.6`.
 
 ### What maps are preconfigured with each mode?
 
@@ -488,11 +497,15 @@ You can also start a specific game mode vote by typing `!comp`, `!wingman`, `!dm
 
 #### mg_aim
 
-<table><tr><td><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/aim_map.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3084291314">aim_map</a><br><sup><sub>host_workshop_map 3084291314</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/freebet_aim_map.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3146122036">freebet_aim_map</a><br><sup><sub>host_workshop_map 3146122036</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/fy_pool_day.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3070923343">fy_pool_day</a><br><sup><sub>host_workshop_map 3070923343</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/aim_ak-colt_CS2.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3078701726">aim_ak-colt_CS2</a><br><sup><sub>host_workshop_map 3078701726</sub></sup></td></tr></table></td></tr></table>
+<table><tr><td><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/aim_map.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3084291314">aim_map</a><br><sup><sub>host_workshop_map 3084291314</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/freebet_aim_map.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3146122036">freebet_aim_map</a><br><sup><sub>host_workshop_map 3146122036</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/fy_pool_day.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3070923343">fy_pool_day</a><br><sup><sub>host_workshop_map 3070923343</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/aim_ak-colt_CS2.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3078701726">aim_ak-colt_CS2</a><br><sup><sub>host_workshop_map 3078701726</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/aim_usp.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3085962528">aim_usp</a><br><sup><sub>host_workshop_map 3085962528</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/aim_deagle.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3075996446">aim_deagle</a><br><sup><sub>host_workshop_map 3075996446</sub></sup></td></tr></table></td></tr></table>
 
 #### mg_prefire
 
-<table><tr><td><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/de_ancient.jpg?raw=true&sanitize=true"></td></tr><tr><td>de_ancient<br><sup><sub>changelevel de_ancient</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/de_dust2.jpg?raw=true&sanitize=true"></td></tr><tr><td>de_dust2<br><sup><sub>changelevel de_dust2</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/de_inferno.jpg?raw=true&sanitize=true"></td></tr><tr><td>de_inferno<br><sup><sub>changelevel de_inferno</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/de_mirage.jpg?raw=true&sanitize=true"></td></tr><tr><td>de_mirage<br><sup><sub>changelevel de_mirage</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/de_overpass.jpg?raw=true&sanitize=true"></td></tr><tr><td>de_overpass<br><sup><sub>changelevel de_overpass</sub></sup></td></tr></table></td></tr></table>
+<table><tr><td><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/de_ancient.jpg?raw=true&sanitize=true"></td></tr><tr><td>de_ancient<br><sup><sub>changelevel de_ancient</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/de_dust2.jpg?raw=true&sanitize=true"></td></tr><tr><td>de_dust2<br><sup><sub>changelevel de_dust2</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/de_inferno.jpg?raw=true&sanitize=true"></td></tr><tr><td>de_inferno<br><sup><sub>changelevel de_inferno</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/de_mirage.jpg?raw=true&sanitize=true"></td></tr><tr><td>de_mirage<br><sup><sub>changelevel de_mirage</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/de_overpass.jpg?raw=true&sanitize=true"></td></tr><tr><td>de_overpass<br><sup><sub>changelevel de_overpass</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/de_anubis.jpg?raw=true&sanitize=true"></td></tr><tr><td>de_anubis<br><sup><sub>changelevel de_anubis</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/de_nuke.jpg?raw=true&sanitize=true"></td></tr><tr><td>de_nuke<br><sup><sub>changelevel de_nuke</sub></sup></td></tr></table></td></tr></table>
+
+#### mg_Casual16
+
+<table><tr><td><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/as_oilrig.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3104677430">as_oilrig</a><br><sup><sub>host_workshop_map 3104677430</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/cs_assult_classic.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3215705579">cs_assult_classic</a><br><sup><sub>host_workshop_map 3215705579</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/de_aztec_classic.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3213800338">de_aztec_classic</a><br><sup><sub>host_workshop_map 3213800338</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/de_dust_classic.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3078095785">de_dust_classic</a><br><sup><sub>host_workshop_map 3078095785</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/de_dust2_classic.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3201205818">de_dust2_classic</a><br><sup><sub>host_workshop_map 3201205818</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/cs_italy_classic.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3212419403">cs_italy_classic</a><br><sup><sub>host_workshop_map 3212419403</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/cs_militia_classic.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3144773563">cs_militia_classic</a><br><sup><sub>host_workshop_map 3144773563</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/de_nuke_classic.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3205793205">de_nuke_classic</a><br><sup><sub>host_workshop_map 3205793205</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/cs_office_classic.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3216844784">cs_office_classic</a><br><sup><sub>host_workshop_map 3216844784</sub></sup></td></tr></table><table align="left"><tr><td><img height="112" src="https://github.com/kus/cs2-modded-server/blob/assets/images/de_survivor_classic_m.jpg?raw=true&sanitize=true"></td></tr><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3217247541">de_survivor_classic_m</a><br><sup><sub>host_workshop_map 3217247541</sub></sup></td></tr></table></td></tr></table>
 
 ### How do I connect to RCON remotely?
 
@@ -622,6 +635,8 @@ Go to the Releases page for [Metamod:Source](http://www.sourcemm.net/downloads.p
 First open terminal and `cd` into the folder where you unzipped the zips i.e.: `cd ~/Downloads` then update the command below with the full path to the repo and run it:
 
 `rsync -rhavz --exclude "._*" --exclude ".DS_Store" --partial --progress --stats ./addons/ /Users/kus/dev/personal/counter-strike/cs2-modded-server/game/csgo/addons/`
+
+If you are on Windows, from the [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp/releases) with runtime zip, you need to copy the `api`,`bin`, `dotnet` folders from the `/addons/counterstrikesharp` folder to`game/csgo/addons/windows/counterstrikesharp` in this repo.
 
 ### Enable advertisements
 
