@@ -1,51 +1,59 @@
 {
-  "Version": 2,
-  "RTV": {
-    "Enabled": true,
-    "Plugin": "addons/counterstrikesharp/plugins/RockTheVote/RockTheVote.dll",
-    "MapListFile": "addons/counterstrikesharp/plugins/RockTheVote/maplist.txt",
-    "DefaultMapFormat": false
-  },
-  "MapGroup": {
-    "Delay": 1,
-    "Default": "mg_active",
-    "File": "gamemodes_server.txt"
-  },
-  "GameSettings": {
-    "Enabled": true,
-    "Home": "cfg",
-    "Folder": "settings"
-  },
-  "GameMode": {
-    "Rotation": false,
-    "Interval": 4,
-    "Delay": 1,
-    "ListEnabled": true,
-    "List": [
-      "comp",
-			"wingman",
-			"dm-multicfg",
-			"gg",
-			"1v1",
-			"awp",
-			"aim",
-			"prefire",
-			"executes",
-			"retake",
-			"prac",
-			"bhop",
-			"kz",
-			"surf",
-			"minigames",
-      "deathrun",
-			"course",
-			"scoutzknivez",
-			"hns",
-			"soccer",
-			"dm",
-			"ar",
-      "Casual-1.6"
-    ]
-  },
-  "ConfigVersion": 2
+	"Version": 2,
+	"RTV": {
+		"Enabled": false,
+		"Plugin": "addons/counterstrikesharp/plugins/RockTheVote/RockTheVote.dll",
+		"MapListFile": "addons/counterstrikesharp/plugins/RockTheVote/maplist.txt",
+		"DefaultMapFormat": false
+	},
+	"MapGroup": {
+		"Delay": 5,
+		"Default": "mg_active",
+		"File": "gamemodes_server.txt"
+	},
+	"Settings": {
+		"Enabled": true,
+		"Folder": "settings",
+		"Style": "center"
+	},
+	"GameMode": {
+		"Rotation": false,
+		"Interval": 4,
+		"Delay": 5,
+		"Style": "center",
+		"ListEnabled": true,
+		"List": {
+			"comp": "Competitive",
+			"wingman": "Wingman",
+			"dm-multicfg": "Deathmatch",
+			"gg": "Gun Game",
+			"1v1": "1 v 1",
+			"awp": "AWP Only",
+			"aim": "Aim",
+			"prefire": "Prefire",
+			"retake": "Retakes",
+			"executes": "Executes",
+			"prac": "Practice Mode",
+			"bhop": "BHop",
+			"kz": "Kreedz Climbing",
+			"surf": "Surf",
+			"minigames": "Mini Games",
+			"deathrun": "Deathrun",
+			"course": "Course",
+			"scoutzknivez": "ScoutzKnives",
+			"hns": "Hide N Seek",
+			"soccer": "Soccer",
+			"dm": "Deathmatch (Valve)",
+			"ar": "Arms Race (Valve)",
+			"Casual-1.6": "Casual (1.6)"
+		}
+	},
+	"Votes": {
+		"Enabled": true,
+		"Map": true,
+		"GameMode": true,
+		"GameSetting": false,
+		"Style": "center"
+	},
+	"ConfigVersion": 2
 }

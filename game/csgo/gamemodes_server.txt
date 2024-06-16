@@ -89,6 +89,7 @@
 		"mg_active"
 		{
 			"name"					"mg_active"
+			"displayname"			"Active"
 			"maps"
 			{
 				"de_ancient"	""
@@ -103,6 +104,7 @@
 		"mg_comp"
 		{
 			"name"			"mg_comp"
+			"displayname"			"Competitive"
 			"maps"
 			{
 				"cs_italy"			""
@@ -129,11 +131,13 @@
 				"workshop/3070960099/de_aztec"		""
 				"workshop/3108513658/de_akiba"		""
 				"workshop/3236615060/cs_insertion2"		""
+				"workshop/3070284539/de_train"		""
 			}
 		}
 		"mg_wingman"
 		{
 			"name"			"mg_wingman"
+			"displayname"			"Wingman"
 			"maps"
 			{
 				"cs_italy"			""
@@ -163,11 +167,14 @@
 				"workshop/3070766070/de_mutiny"		""
 				"workshop/3070594412/cs_assault"		""
 				"workshop/3072352643/de_ruins_d_prefab"		""
+				"workshop/3070284539/de_train"		""
+				"workshop/3082340867/de_sakura"		""
 			}
 		}
 		"mg_dm"
 		{
 			"name"			"mg_dm"
+			"displayname"			"Deathmatch"
 			"maps"
 			{
 				"cs_italy"			""
@@ -211,11 +218,14 @@
 				"workshop/3109232789/gg_simpsons_vs_flanders_v2"		""
 				"workshop/3108513658/de_akiba"		""
 				"workshop/3112806723/cs_facingworlds-99"		""
+				"workshop/3070284539/de_train"		""
+				"workshop/3082340867/de_sakura"		""
 			}
 		}
 		"mg_gg"
 		{
 			"name"			"mg_gg"
+			"displayname"			"GunGame"
 			"maps"
 			{
 				"ar_shoots"			""
@@ -243,6 +253,7 @@
 		"mg_1v1"
 		{
 			"name"			"mg_1v1"
+			"displayname"			"1v1"
 			"maps"
 			{
 				"workshop/3070253400/aim_redline_fp"		""
@@ -251,10 +262,10 @@
 		"mg_bhop"
 		{
 			"name"			"mg_bhop"
+			"displayname"			"BHop"
 			"maps"
 			{
 				"workshop/3077211069/bhop_at_night"		""
-				"workshop/3076417347/bhop_asiimov"		""
 				"workshop/3077153735/bhop_ragnarok"		""
 				"workshop/3077475505/bhop_zunron"		""
 				"workshop/3077596014/bhop_1derland"		""
@@ -267,6 +278,7 @@
 		"mg_kz"
 		{
 			"name"			"mg_kz"
+			"displayname"			"KZ"
 			"maps"
 			{
 				"workshop/3074758439/only_up"		""
@@ -288,6 +300,7 @@
 		"mg_surf"
 		{
 			"name"			"mg_surf"
+			"displayname"			"Surf"
 			"maps"
 			{
 				"workshop/3076153623/surf_kitsune"		""
@@ -303,6 +316,7 @@
 		"mg_minigames"
 		{
 			"name"			"mg_minigames"
+			"displayname"			"Minigames"
 			"maps"
 			{
 				"workshop/3082120895/mg_skeet_multigames_v7"		""
@@ -314,6 +328,7 @@
 		"mg_deathrun"
 		{
 			"name"			"mg_deathrun"
+			"displayname"			"Deathrun"
 			"maps"
 			{
 				"workshop/3164611860/deathrun_playground"		""
@@ -324,6 +339,7 @@
 		"mg_course"
 		{
 			"name"			"mg_course"
+			"displayname"			"Course"
 			"maps"
 			{
 				"workshop/3076483842/cr_devisland_p1_v1"		""
@@ -345,6 +361,7 @@
 		"mg_scoutzknivez"
 		{
 			"name"			"mg_scoutzknivez"
+			"displayname"			"Scoutz Knivez"
 			"maps"
 			{
 				"workshop/3073929825/scoutzknivez_pure_cs2"		""
@@ -354,6 +371,7 @@
 		"mg_hns"
 		{
 			"name"			"mg_hns"
+			"displayname"			"Hide n Seek"
 			"maps"
 			{
 				"workshop/3097563690/infernohideandseek"		""
@@ -366,6 +384,7 @@
 		"mg_soccer"
 		{
 			"name"			"mg_soccer"
+			"displayname"			"Soccer"
 			"maps"
 			{
 				"workshop/3070198374/ka_soccer_2009"		""
@@ -374,6 +393,7 @@
 		"mg_awp"
 		{
 			"name"			"mg_awp"
+			"displayname"			"Awp"
 			"maps"
 			{
 				"workshop/3142070597/awp_bhop_rocket"		""
@@ -382,6 +402,7 @@
 		"mg_aim"
 		{
 			"name"			"mg_aim"
+			"displayname"			"Aim"
 			"maps"
 			{
 				"workshop/3084291314/aim_map"			""
@@ -395,6 +416,7 @@
 		"mg_prefire"
 		{
 			"name"			"mg_prefire"
+			"displayname"			"Prefire"
 			"maps"
 			{
 				"de_ancient"		""
@@ -409,6 +431,7 @@
 		"mg_Casual-1.6"
 		{
 			"name"			"mg_Casual-1.6"
+			"displayname"			"Casual 1.6"
 			"maps"
 			{
 				"workshop/3104677430/as_oilrig"				""
