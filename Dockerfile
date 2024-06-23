@@ -37,7 +37,9 @@ RUN mkdir -p /home/steam/cs2
 
 RUN chown -R steam:steam /home/steam/cs2
 
-# RUN git clone https://github.com/DanielDKnudsen/cs2-modded-server
+RUN git clone https://github.com/ReneRebsdorf/cs2-modded-server
+
+RUN git checkout develop
 
 # RUN echo cloned repository
 
