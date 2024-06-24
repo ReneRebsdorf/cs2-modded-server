@@ -7,11 +7,8 @@ services:
     volumes:
       - cs2-volume:/home/steam/
       - type: bind
-        source: ./custom_files
-        target: /home/custom_files/
-      - type: bind
-        source: ./game
-        target: /home/game/
+        source: ./
+        target: /home/cs2-modded-server/
     ports:
       - "27015:27015/tcp"
       - "27015:27015/udp"

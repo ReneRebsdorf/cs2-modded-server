@@ -139,10 +139,10 @@ mkdir -p /home/${user}/.steam/sdk64/
 ln -sf /steamcmd/linux64/steamclient.so /home/${user}/.steam/sdk64/
 
 echo "Installing mods"
-cp -R /home/game/csgo/ /home/${user}/cs2/game/
+cp -R /home/cs2-modded-server/game/ /home/${user}/cs2/
 
 echo "Merging in custom files"
-cp -RT /home/custom_files/ /home/${user}/cs2/game/csgo/
+cp -RT /home/cs2-modded-server/custom_files/ /home/${user}/cs2/game/csgo/
 
 chown -R ${user}:${user} /home/${user}/cs2
 
