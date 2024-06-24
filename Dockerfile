@@ -17,22 +17,24 @@ RUN apt-get update --fix-missing \
     && rm -rf /var/lib/apt/lists/*
 
 RUN addgroup steam \
-    && useradd -g steam steam \
-    && usermod -aG sudo steam
+    && useradd -g steam steam
 
 ENV TICKRATE=""
 ENV MAXPLAYERS=""
 ENV API_KEY=""
 ENV STEAM_ACCOUNT=""
 
-RUN echo "steam ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/steam \
-    && chmod 0440 /etc/sudoers.d/steam
+COPY ./install_docker.sh /home/steam/
+COPY ./custom_files/ /home/steam/
+COPY ./game/ /home/steam/
 
-RUN mkdir -p /home/steam
+RUN mkdir /home/steam/steamcmd
+
 RUN chown -R steam:steam /home/steam
+RUN chmod -R 701 /home/steam
 
-WORKDIR /home/cs2-modded-server/
+WORKDIR /home/steam
 
 USER steam
 
-CMD [ "sudo", "-E", "bash", "/home/cs2-modded-server/install_docker.sh" ]
+ENTRYPOINT /home/steam/install_docker.sh

@@ -6,9 +6,6 @@ services:
       - .env
     volumes:
       - cs2-volume:/home/steam/
-      - type: bind
-        source: ./
-        target: /home/cs2-modded-server/
     ports:
       - "27015:27015/tcp"
       - "27015:27015/udp"
@@ -17,6 +14,5 @@ services:
     cpu_count: 2
     mem_limit: 3500m
     # command: tail -F anything
-
 volumes:
   cs2-volume:
